@@ -1,0 +1,27 @@
+
+Elements could be empty tags or container tags
+Empty Tags : <br> <img>
+
+Container Tags:
+<h1> </h1>
+<body> </body>
+<b> </b>
+
+
+
+HTML Page is divided into two sections
+head , body
+
+
+<html>
+
+<head>
+
+</head> 
+
+
+<body>
+
+</body>
+
+</html>

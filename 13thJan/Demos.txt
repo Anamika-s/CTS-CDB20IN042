@@ -1,0 +1,23 @@
+<!Doctype html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+Following is the list of courses
+<ol>
+<li> C </li>
+<li> C++ </li>
+<li> Java </li>
+<li> Python  </li>
+<li> PHP </li>
+</ol>
+
+
+</body>
+
+
+</html>
