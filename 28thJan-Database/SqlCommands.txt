@@ -1,0 +1,37 @@
+create database d1
+use d1
+
+create table student(rn int , 
+name char(20),
+address char(30),
+marks int)
+
+insert into student values(
+1,'Ajay','Delhi',90)
+
+insert into student values(
+2,'Vijay','Delhi',90)
+
+insert into student values(
+3,'Deepak','Gurgaon',45)
+
+insert into student values(
+4,'Prabhas','Calcutta',98)
+
+insert into student values(
+5,'Sagar','Calcutta',23)
+
+
+Select * from student
+
+
+-----------------------------------
+
+-- insert multile records using 1 insert statement
+insert into student values
+(1,'Ajay','Delhi',90),
+(1,'Ajay','Delhi',90),
+(1,'Ajay','Delhi',90),
+(1,'Ajay','Delhi',90),
+(1,'Ajay','Delhi',90)
+
