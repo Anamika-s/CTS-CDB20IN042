@@ -1,0 +1,86 @@
+create database d1
+use d1
+
+create table student(rn int , 
+name char(20),
+address char(30),
+marks int)
+
+insert into student values(
+1,'Ajay','Delhi',90)
+
+insert into student values(
+2,'Vijay','Delhi',90)
+
+insert into student values(
+3,'Deepak','Gurgaon',45)
+
+insert into student values(
+4,'Prabhas','Calcutta',98)
+
+insert into student values(
+5,'Sagar','Calcutta',23)
+
+
+Select * from student
+
+-- insert multile records using 1 insert statement
+insert into student values
+(1,'Ajay','Delhi',90),
+(1,'Ajay','Delhi',90),
+(1,'Ajay','Delhi',90),
+(1,'Ajay','Delhi',90),
+(1,'Ajay','Delhi',90)
+
+
+Select * from student
+-- Projection , when you want to display selected columns
+-- * al columns
+select name , address from student
+
+select name AS "Student Name" , address as "Student Address" from student
+select name  "Student Name" , address  "Student Address" from student
+
+Select * from student
+
+select name , marks , marks + 10 from student
+select name , marks , marks + 10 AS "Incremented Marks" from student
+
+-- Selection , we want to filter records based on some condition
+-- we use where clause
+
+select * from student where rn < 6 
+
+select * from student where rn > 6  
+
+select * from student where rn > 1 and rn < 3 
+
+select * from student where rn between 1 and 3 
+
+select * from student where rn = 2 or rn = 4
+
+select * from student where rn IN (2,4)
+
+-- RANGE :  select  * from studnet where rn >= 1 and rn <= 6 
+-- To replace and ,we can use BETWEEN Operator (Range)
+-- select  * from studnet where rn between 1 and 6 
+-- To replace or , we can use IN operator
+
+
+Select * from student where name = 'Deepak'
+
+-- Give records where name start with D
+-- LIKE Operator its used for pattern matching
+-- %  means any no. of characters
+-- _ means 1 character, __ upto 2 characters
+select * from student where name LIKE 'D%'
+select * from student where name LIKE '%a'
+select * from student where name LIKE '%i%'
+-- Records where rn is less than 3 and addrss is Delhi
+select * from student where rn <3 and address ='Delhi'
+
+
+ 
+ 
+
+
