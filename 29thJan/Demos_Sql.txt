@@ -1,0 +1,152 @@
+use d1
+-- Database > Collection of objects
+-- objects are tables , views , procedures , etc;
+
+-- create table
+-- insert
+-- select , where
+
+select * from sys.tables 
+
+select * from student
+
+
+select * from student
+
+-- edit records , update
+
+update student set  address ='Delhi' where name='Prabhas'
+
+
+update student set remarks='Good' 
+
+-- delete records
+
+delete from student where name='Deepak'
+
+-- create one table and copy all the records to that table
+select * into student2 from student
+
+select * from sys.tables
+-- add one more column
+
+alter table student add remarks varchar(50)
+
+
+-- delete one more column
+
+alter table student2 drop column marks 
+select * from student2
+
+-- change column type or width
+
+alter table student alter column name char(30) 
+
+-- rename a column
+
+-- Syntax
+-- sp_rename 'table name.columnoldname', 'newname' ,'COLUMN'
+sp_rename 'student.remarks' , 'description' ,'COLUMN'
+
+select * from student
+
+-------------------------------
+
+-- Constraints : restrictions / validation that we put on the value of column
+
+-- Primary Key
+-- not null
+-- unique
+-- default
+-- check
+-- foreign key
+
+-- Delete a Table
+-- drop table tablename
+
+drop table student
+
+create table student (rn int primary key,
+name varchar(20) not null,
+marks int check(marks between 0 and 100),
+address varchar(20),
+trainer varchar(20) unique,
+course char(10) check (course IN ('C', 'C++','C#','Java')),
+batchcode char(4) default 'B001')
+  
+insert into student values 
+(1,'Ajay',20,'Delhi','T1','C','B002')
+
+
+insert into student values 
+(2,'Ajay',20,'Delhi','T2','C','B002')
+
+
+insert into student values 
+(3,'Deepak',90,'Delhi','T3','C','B002')
+
+
+insert into student values 
+(4,'Deepak',90,'Delhi','T4','C#','B002')
+
+
+Select * from student
+
+
+
+---------------------------
+
+
+Select * from student
+-- null : Not available 
+-- How do we insert null
+-- 2 ways , implicit way / explicit way
+-- implicit way 
+
+insert into student(rn, name , batchcode) values( 5,'Lalit','B003')
+
+-- explicit way
+ 
+insert into student(rn, name , marks, course,trainer,batchcode)
+ values( 6,'Lalit', 89, null, 'T5','B003')
+
+ -- Give all Recors where trainer has a value
+
+ select * from student where trainer is null
+ 
+ select * from student where trainer is not null
+
+------------------------------------
+
+-- drop the constraint
+ alter table student drop constraint [UQ__student__9EDF7708060DEAE8]
+
+
+
+ -- Assign names to the constaints
+
+ create table student (rn int constraint pk primary key,
+name varchar(20)  constraint notnull not null,
+marks int constraint marksrange check(marks between 0 and 100),
+address varchar(20),
+trainer varchar(20) constraint uniquetrainer unique,
+course char(10) constraint coursecheck check (course IN ('C', 'C++','C#','Java')),
+batchcode char(4) constraint def default 'B001')
+
+
+
+---------------------------------
+alter table student drop constraint marksrange
+
+------------------------------------
+
+
+-- char () and varchar(20)
+
+-- name char(20) -- fixed size
+-- Ajay
+
+-- name varchar(20) -- variable size 
+-- Ajay
+
+
