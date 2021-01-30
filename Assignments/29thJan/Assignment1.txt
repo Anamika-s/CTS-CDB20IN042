@@ -1,0 +1,28 @@
+1. Create table Employee
+
+id int 
+name varchar(20)
+department varchar(20)
+manager varchar(20)
+
+Here id is primary key
+name should not be null
+department can be only HR, Accts , Sales
+Manager Name can not be null
+
+2.insert 5 records
+3. Display all records
+
+4.add one more column salary int, where salary can not be -ve
+
+5. Modify all the records where department is HR , increase salary by 2800
+ 
+6. Change manager name to Pradeep where department is accts and Sales
+
+7. Change column name manager to managername
+
+8. Display all records where salary is more than 15000
+
+9. Display all records where department is Accts and HR and salary is more than 15000
+
+10. Display all employees of Accts Departament 
