@@ -1,0 +1,27 @@
+           Assignment No : 1
+
+
+1. Create a project in Visual Studio
+select console App .Net Framework template
+Understand structure of the project
+
+2. WAP to add three numbers
+
+3. WAP to print sum and average of 1st 20 natural numbers
+
+4. WAP to print first 50 even numbers
+
+5. WAP to check whether a number is prime or not
+
+6. WAP to print table of entered number in following format
+
+5 * 1 = 5
+5 * 2 = 10
+
+7. WAP to take some numbers from user.. Note the difference between ToIn16, ToInt32 , ToByte and other methods available 
+
+8. What is System in the program. What are Console and Convert? What are Write, WriteLine , ReadLine and ToByte
+
+9. Is it mandatory to have a class in the project
+
+10. Why is static added to Main() method?
