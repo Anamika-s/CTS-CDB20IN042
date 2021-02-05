@@ -1,0 +1,23 @@
+           Assignment No : 1
+
+
+1. Create a project in Visual Studio
+select console App .Net Framework template
+Understand structure of the project
+
+2. WAP to add three numbers
+
+3. WAP to multiple 3 numbers
+
+4. What is System in the program. What is Console? What are Write, WriteLine 
+
+5. Is it mandatory to have a class in the project
+
+6. WAP to declare string and integer variables to hold id, name , address , salary  
+Display it in 
+
+ Welcome Ajay , Your Details are as follows:
+ Your ID : 101
+ Your Address is : ABC , Delhi
+ Your Salary is :  25000
+ 
