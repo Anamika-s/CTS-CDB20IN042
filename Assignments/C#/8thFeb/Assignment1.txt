@@ -1,0 +1,3 @@
+Same program with different methods , take input from user and make it conditional
+1. using if else
+2. using switch 
