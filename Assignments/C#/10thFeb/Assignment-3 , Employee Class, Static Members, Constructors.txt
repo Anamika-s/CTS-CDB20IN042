@@ -1,0 +1,32 @@
+                     Assignment No : 3
+
+
+1. Create a class Employee with following attributes 
+  Empid
+  Name
+  dept
+  Manager
+  Basic Salary
+  Exp
+  Company Name
+  Company Address
+
+
+  Depending upon Exp, calculate Net Salary
+if exp > 10 years , DA = 10% of basic, HRA = 8.5 % of basic , PF = 6200
+if exp > 7 years and less than 10 years , DA = 7% of basic, HRA = 6.5 % of basic , PF = 4100
+if exp > 5 years and less than 7 years, DA = 4.1% of basic, HRA = 3.8 % of basic , PF = 1800
+if exp < 10 years , DA = 1.9% of basic, HRA = 2.0 % of basic , PF = 1200
+
+Display the details in proper way
+
+ You are supposed to do it for some Employees, count is not known. Which loop you will use? 
+
+  1. Understand how you will make this class and add data members
+  2. Create Methods accoringly:
+      a. We know name , dept and manager of Employee
+      b. We know employee id, name , department of Employee
+      c. We know all details about Employee
+  3. Print total number of Employees
+
+

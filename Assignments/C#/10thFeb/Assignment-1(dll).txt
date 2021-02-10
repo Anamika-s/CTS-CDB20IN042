@@ -1,0 +1,34 @@
+                  Assignment No : 1 (DLL)
+Create one dll with following functionalities : 
+
+Numeric Functions
+
+ 1. Add n no. of arguments
+ 2. Subtract 
+ 3. Multiply 
+ 4. Divide
+ 5. Find Max 
+ 6. Find Min
+ 7. Check a no. for even
+ 8. Check a no. for odd
+ 9. Check a no. for prime
+ 10. Display all even no.s with in a given range
+ 11. Display all odd no.s with in a given range
+ 12. Display all prime no.s with in a given range
+ 13. Diplay table of an entered no.
+ 14. Display tables from 1 to 10 of all no.s with in a given range
+ 15. Display tables from a given range of all no.s with in a given range
+ 16. Reverse a no.
+
+
+ 1. Find no. of characters in a sentence
+ 2. Check for Palindrome
+ 3. Reverse a sentencene
+ 4. Find no. of vowels, consonants, integers and sp characters in a sentence
+ 5. Change case to upper case
+ 6. Change sentence to proper case
+ 7. Combine two sentences
+ 8. Remove extra spaces in a sentence
+ 9. Count no. of words in a sentence
+ 10.Search a substring in a sentence
+ 11.Find the no. of occurences of a substring in a sentence

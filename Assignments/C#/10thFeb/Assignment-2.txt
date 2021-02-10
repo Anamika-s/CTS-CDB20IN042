@@ -1,0 +1,31 @@
+            Assignment No : 2
+Create a class for product :
+
+ All the products have pcode, pname, qty_in_stock,discount_allowed(which is different for evry product, and once it is set for one product, it shall remian same, brand (which is common for every one, and all the products are different for every brand.
+
+ Add appropriate methods :
+ 1)For Taking Inputs from Customers
+ 2)calculate total amount , also while calculating total amount, as today is 26th Jan, Company wants to give a discount of 50% on all the products..Take care of  that while calculating total amount to be paid...
+ 3)produce bill..
+
+
+   Create a Class Product
+
+   Collection of Products, atleast store 10 records
+
+
+  
+
+  After that customer will place order
+
+  At this this time customer will only give product name
+  Enter Qty to take: 
+
+  We have prepare Bill for that
+
+
+
+
+
+
+
