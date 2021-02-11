@@ -1,0 +1,56 @@
+Params Array : are used when no. of arguments are not known
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp34
+{
+    class Class1
+    {
+        //static int add(int x, int y)
+        //{
+        //    return x + y;
+        //}
+        //static int add(int x, int y , int z)
+        //{
+        //    return x + y + z;
+        //}
+        //static int add(int x, int y, int z, int a, int b )
+        //{
+        //    return x + y + z;
+        //}
+
+        //static int add(int[] num)
+        //{
+        //    int sum = 0;
+        //   foreach(int x in num)
+        //    {
+        //        sum += x; 
+        //    }
+        //    return sum;
+        //}
+
+        static int add(params int[] num)
+        {
+            int sum = 0;
+            foreach (int x in num)
+            {
+                sum += x;
+            }
+            return sum;
+        }
+        static void Main()
+        {
+           
+
+            int sum = add(1, 2, 3, 4);
+            sum = add(1, 2);
+            int[] num = new int[] { 1, 2, 3, 4, 5, 6, 7 };
+            sum = add(num);
+        }
+    }
+}
