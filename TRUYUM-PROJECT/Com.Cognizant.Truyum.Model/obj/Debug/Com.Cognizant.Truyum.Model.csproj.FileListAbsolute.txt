@@ -1,0 +1,5 @@
+E:\CTS\TruumProject\Com.Cognizant.Truyum.Model\bin\Debug\Com.Cognizant.Truyum.Model.dll
+E:\CTS\TruumProject\Com.Cognizant.Truyum.Model\bin\Debug\Com.Cognizant.Truyum.Model.pdb
+E:\CTS\TruumProject\Com.Cognizant.Truyum.Model\obj\Debug\Com.Cognizant.Truyum.Model.csproj.CoreCompileInputs.cache
+E:\CTS\TruumProject\Com.Cognizant.Truyum.Model\obj\Debug\Com.Cognizant.Truyum.Model.dll
+E:\CTS\TruumProject\Com.Cognizant.Truyum.Model\obj\Debug\Com.Cognizant.Truyum.Model.pdb
